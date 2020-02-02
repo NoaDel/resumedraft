@@ -1,0 +1,96 @@
+.testing {
+  color: yellow;
+}
+
+.you_approach_me {
+  display: flex;
+  border-radius: 50%;
+  position: relative;
+  margin: 0 auto 0 auto;
+  border: 5px solid #444444;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+.picture {
+  background-image: linear-gradient(to right, red, yellow);
+  width: 100%;
+  height: 300px;
+  display: flex;
+}
+
+.roundpicture {
+  border-radius: 50%;
+  background-image: linear-gradient(to right, red, yellow);
+  width: 100%;
+  height: 300px;
+  top: 150px;
+  position: absolute;
+  z-index: -2;
+}
+
+.pictureborder {
+  border-radius: 30px;
+  width: 240px;
+  height: 400px;
+  background-color: #212121;
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 10px solid #444444;
+}
+
+.profiletext {
+  display: flex;
+  position: relative;
+  color: white;
+  margin-top: 20px;
+  font-size: 30px;
+  font-family: "Pacifico", cursive;
+}
+
+.profiletext2 {
+  display: flex;
+  position: relative;
+  color: white;
+  font-size: 11px;
+  font-family: "Pacifico", cursive;
+}
+
+html {
+  height: 100%;
+}
+
+.bodystuff {
+  margin: 150px 0 0 0;
+}
+
+.one {
+  color: red;
+}
+
+.two, .two--siri {
+  color: blue;
+}
+.two--siri {
+  margin: 1px;
+}
+
+.siri {
+  font-size: 20px;
+}
+
+.four {
+  color: red;
+}
+
+.fifth {
+  color: red;
+}
+
+/*# sourceMappingURL=style.css.map */
